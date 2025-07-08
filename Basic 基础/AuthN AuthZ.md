@@ -74,7 +74,7 @@ JWT结构 算法：
 
 **权限控制灵活（而且双token机制还有很好的权限控制灵活性，可以通过控制RefreshToken的有效期，刷新次数等方式来灵活的管理用户的绘画生命周期，并且在必要的时候去撤销RefreshToken的内容从而终止后续所以AccessToken的一个访问生成）**
 
-![](assets/AuthN AuthZ_1.png)
+![](../assets/AuthN AuthZ_1.png)
 
 - **Access Token****：客户端（内存或 httpOnly Cookie），无须服务端存储（如果使用 JWT）。**
 - **Refresh Token****：在服务端存储（如 Redis、数据库），同时通过****安全方式****（如 httpOnly Cookie）传递给客户端。**
@@ -108,13 +108,13 @@ JWT结构 算法：
 2. 使用分布式事件通知机制实时同步黑名单。【mq，去 context 删掉
 3. 强制刷新用户上下文。（定期去再解析 token
 
-![](assets/AuthN AuthZ_2.png)
+![](../assets/AuthN AuthZ_2.png)
 
 
 
 
 
-**实时**![](assets/AuthN AuthZ_3.png)
+**实时**![](../assets/AuthN AuthZ_3.png)
 
 ## **OAuth2 第三方认证**
 
@@ -124,7 +124,7 @@ JWT结构 算法：
 
 连在一起就表示 **“开放授权”**，OAuth2是一种开放授权协议。
 
-![](assets/AuthN AuthZ_4.png)
+![](../assets/AuthN AuthZ_4.png)
 
 **流程：**
 

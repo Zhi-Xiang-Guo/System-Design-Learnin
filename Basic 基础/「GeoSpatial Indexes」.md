@@ -76,7 +76,7 @@ Uber 实现附近订单匹配系统「考察空间关联查询与实时性」
 
 ## Index x or y in 「like MySQL」
 
-![](assets/「GeoSpatial Indexes」_1.png)
+![](../assets/「GeoSpatial Indexes」_1.png)
 
 Jordan是user
 
@@ -88,11 +88,11 @@ Jordan是user
 
 ## Geohash index 「」
 
-![](assets/「GeoSpatial Indexes」_2.png)
+![](../assets/「GeoSpatial Indexes」_2.png)
 
 DB
 
-![](assets/「GeoSpatial Indexes」_3.png)
+![](../assets/「GeoSpatial Indexes」_3.png)
 
 
 
